@@ -1,0 +1,65 @@
+SECURITY INCIDENT RESPONSE REPORT
+=================================
+
+Incident ID: SOC-2026-001
+Incident Type: Suspicious Authentication Activity
+Severity: HIGH (Simulated)
+Status: Investigation Required
+Date: November 2, 2026
+
+1. EXECUTIVE SUMMARY
+A simulated security log investigation identified
+four failed administrator login attempts, followed
+by a successful login and a privilege change.
+
+The activity may indicate a brute-force attempt
+followed by unauthorized access. Compromise has
+not been confirmed.
+
+2. EVIDENCE
+Source IP: 203.0.113.45
+Account: admin
+Affected Asset: Server-01
+Failed Logins: 4
+Successful Logins: 1
+Privilege Changes: 1
+
+3. INCIDENT TIMELINE
+09:05:00 - Failed administrator login
+09:05:10 - Failed administrator login
+09:05:20 - Failed administrator login
+09:05:30 - Failed administrator login
+09:06:00 - Successful administrator login
+09:07:00 - Privilege change recorded
+
+4. RISK ASSESSMENT
+Potential risks include unauthorized access,
+privilege escalation, and account compromise.
+
+The high severity is a preliminary training
+classification, not a confirmed real incident.
+
+5. RECOMMENDED RESPONSE
+- Verify whether the administrator login was
+  authorized.
+- Review authentication and privilege audit logs.
+- Preserve relevant logs and evidence.
+- Check for additional suspicious account activity.
+- If unauthorized access is confirmed, follow
+  approved account containment procedures.
+- Reset credentials and revoke sessions if warranted.
+- Document investigation and recovery actions.
+
+6. LIMITATIONS
+This investigation uses fictional security events.
+The IP address is reserved for documentation.
+No real attack or compromise was verified.
+
+7. CONCLUSION
+The simulated event sequence warrants further
+investigation because repeated login failures
+were followed by a successful login and
+a privilege change.
+
+Prepared by: David Jeffries
+Project: Security Incident Response Investigation
