@@ -1,0 +1,9 @@
+Timestamp,Source_IP,Username,Event_Type,Status,Destination
+2026-11-02 09:00:00,192.168.1.25,jsmith,Login,Success,Workstation-01
+2026-11-02 09:05:00,203.0.113.45,admin,Login,Failed,Server-01
+2026-11-02 09:05:10,203.0.113.45,admin,Login,Failed,Server-01
+2026-11-02 09:05:20,203.0.113.45,admin,Login,Failed,Server-01
+2026-11-02 09:05:30,203.0.113.45,admin,Login,Failed,Server-01
+2026-11-02 09:06:00,203.0.113.45,admin,Login,Success,Server-01
+2026-11-02 09:07:00,203.0.113.45,admin,Privilege_Change,Success,Server-01
+2026-11-02 09:10:00,192.168.1.25,jsmith,Login,Success,Workstation-01
